@@ -1,0 +1,101 @@
+@charset "utf-8";
+.clear{
+	clear:both;
+	font-size:0px;
+	line-height:0px;
+	height:0px;
+}
+
+/*多页签样式*/
+.MultiPageTab{
+	width:100%;
+	margin:0 auto;
+	
+}
+
+#box_con2_sub2 ul li.MultiPageTab_link{
+	background:url(../images/hydt.jpg);
+	width:100px;
+	height:43px;
+	line-height:38px;
+	float:left;
+	
+	border-right:1px solid #fff;
+	text-align:center;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+#box_con2_sub2 ul li.MultiPageTab_hover{
+	background:url(../images/qiyenews.jpg);
+	width:100px;
+	height:43px;
+	line-height:38px;
+	float:left;
+	
+	border-right:1px solid #fff;
+	text-align:center;
+	color:#000000;
+	font-weight:bold;
+}
+
+#box_con2_sub2 .tabhead{ background:url(../images/bpbg.png) repeat-x; height:43px;}
+
+#box_con2_sub2 ul li.MultiPageTab_link a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#box_con2_sub2 ul li.MultiPageTab_link a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#box_con2_sub2 ul li.MultiPageTab_link a:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#box_con2_sub2 ul li.MultiPageTab_link a:active{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#box_con2_sub2 ul li.MultiPageTab_hover a:link{
+	color:#fff;
+	text-decoration:none;
+}
+#box_con2_sub2 ul li.MultiPageTab_hover a:visited{
+	color:#fff;
+	text-decoration:none;
+}
+#box_con2_sub2 ul li.MultiPageTab_hover a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+#box_con2_sub2 ul li.MultiPageTab_hover a:active{
+	color:#ff;
+	text-decoration:none;
+}
+
+
+#box_con2_sub2 div.tabArea_a{
+	
+}
+
+#box_con2_sub2 div.tabArea_b{
+	border:1px solid #167bbf;
+	display:none;
+}
+
+#box_con2_sub2 .tabboxId{
+	
+}
+
+
+
+
+
+
+
+
+
+
+

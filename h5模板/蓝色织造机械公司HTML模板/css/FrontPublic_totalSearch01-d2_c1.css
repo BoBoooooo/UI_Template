@@ -1,0 +1,43 @@
+@charset "utf-8";
+/** 全局样式 **/
+.FrontPublic_totalSearch01-d2_c1 {
+	width:90%;
+	margin:0 auto;
+	clear:both;
+	overflow:hidden;
+	text-align:left;
+}
+
+#box_header_top .FrontPublic_totalSearch01-d2_c1 {
+	width:500px;
+	 height:30px;
+	overflow:hidden;
+	text-align:right;
+	float:right;
+	 margin-top:65px;
+	  margin-right:6px;
+}
+.FrontPublic_totalSearch01-d2_c1 .fontred,.FrontPublic_totalSearch01-d2_c1 .fontwhite {
+	color:#f60;
+}
+.FrontPublic_totalSearch01-d2_c1 .fontwhite {
+	color:#fff;
+}
+.FrontPublic_totalSearch01-d2_c1 select {
+	height:20px;
+	line-height:20px;
+	vertical-align:middle;
+}
+/** 输入框 样式 **/
+.FrontPublic_totalSearch01-d2_c1 .input {
+	border:1px solid #c9cacb;
+	height:19px;
+	line-height:19px;
+	vertical-align:middle;
+}
+/**按钮**/
+.FrontPublic_totalSearch01-d2_c1 .btn {
+	height:24px;
+	line-height:24px;
+	vertical-align:middle;
+}

@@ -1,0 +1,162 @@
+@charset "utf-8";
+/** 全局样式n **/
+.FrontColumns_navigation01-d4_c1 {
+	width:100%;
+	margin:0 auto;
+	text-align:left;
+}
+/**1级菜单样式**/
+.FrontColumns_navigation01-d4_c1 ul.nav-first {
+	width:100%;
+	float:left;
+
+}
+.FrontColumns_navigation01-d4_c1 ul.nav-first li {
+	float:left;
+	white-space:nowrap;
+	padding-left:2px;
+	position:relative;
+	 border-left:#686868 solid 1px;
+	 height:14px;
+	line-height:14px;
+	 margin-top:8px;
+
+}
+.FrontColumns_navigation01-d4_c1 ul.nav-first li a {
+	float:left;
+	height:14px;
+	line-height:14px;
+	font-weight:normal;
+	padding:0 20px;
+	text-decoration:none;
+	color:#5f5f5f;
+	
+}
+.FrontColumns_navigation01-d4_c1 ul.nav-first li a:hover {
+
+}
+.FrontColumns_navigation01-d4_c1 ul.nav-first li a:hover span {
+/*background:url(/images/columns/nav-arrow-01.gif) 50% bottom no-repeat;*/
+}
+.FrontColumns_navigation01-d4_c1 ul.nav-first li.first {
+ border:none;
+	
+}
+.FrontColumns_navigation01-d4_c1 ul.nav-first li.last {
+	width:10px;
+	height:14px;
+	float:right;
+	border:none;
+
+}
+/**下拉层样式 **/
+.FrontColumns_navigation01-d4_c1 .ddsubmenustyle,.FrontColumns_navigation01-d4_c1 .ddsubmenustyle ul {
+	font: normal 13px Verdana;
+	white-space:nowrap;
+	overflow:hidden;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	list-style-type: none;
+	background: white;
+	border-bottom-width: 0;
+	visibility: hidden;
+	z-index: 100;
+}
+/* ######### Drop Down ULs CSS ######### */
+.FrontColumns_navigation01-d4_c1 .ddsubmenustyle li  {
+	display:block;
+	width:auto;
+	font-weight:normal;
+	text-decoration:none;
+	color:#000;
+	height:24px;
+	line-height:24px;
+	text-decoration:underline;
+	/*border:1px solid #e4e4e4;
+	background:url(/images/columns/nav-sec1.gif) 0 0 repeat-x;*/
+	float:left;
+	background-color:#f1f1f1;
+}
+.FrontColumns_navigation01-d4_c1 .ddsubmenustyle li a {
+	display:inline-block;
+	width:auto;
+	font-weight:normal;
+	text-decoration:none;
+	color:#000;
+	padding:0 12px;
+	height:24px;
+	line-height:24px;
+	text-decoration:underline;
+	/*border:1px solid #e4e4e4;
+	background:url(/images/columns/nav-sec1.gif) 0 0 repeat-x;*/
+	
+	background-color:#f1f1f1;
+}
+.FrontColumns_navigation01-d4_c1 .ddsubmenustyle li img {
+	margin-top:4px;
+	margin-top:4px\9;
+	+margin-top:0;
+}
+.FrontColumns_navigation01-d4_c1 .ddsubmenustyle li a:hover {
+	color:#000;
+	text-decoration:underline;
+	/*border:1px solid #33ccff;
+	background:url(/images/columns/nav-sec1.gif) 0 -54px repeat-x;*/
+}
+.FrontColumns_navigation01-d4_c1 .ddsubmenustyle li { 
+	_width:auto; 
+}
+.FrontColumns_navigation01-d4_c1 .ddsubmenustyle li a:hover {
+	color:#FFF;
+	
+}
+.FrontColumns_navigation01-d4_c1 .downarrowpointer { 
+	padding-left: 4px;
+	border: 0;
+	_margin-top:16px;
+	display:none;
+}
+.FrontColumns_navigation01-d4_c1 .rightarrowpointer { 
+	position: absolute;
+	padding-top: 0;
+	left: 100px;
+	border: 0;
+}
+.FrontColumns_navigation01-d4_c1 .ddiframeshim {
+	position: absolute;
+	z-index: 500;
+	background: transparent;
+	border-width: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	 
+}
+.FrontColumns_navigation01-d4_c1 .mattblackmenu ul {
+	margin: 0;
+	padding: 0;
+	font: bold 12px Verdana;
+	list-style-type: none;
+
+	overflow: hidden;
+	width: 100%;
+	 height:34px;
+}
+.FrontColumns_navigation01-d4_c1 .mattblackmenu li {
+	
+	margin: 0;
+}
+.FrontColumns_navigation01-d4_c1 .mattblackmenu li a {
+	float: left;
+	display: block;
+	text-decoration: none;
+	margin: 0;
+	padding:0  8px; 
+	color: #666666;
+}
+.FrontColumns_navigation01-d4_c1 .mattblackmenu a.selected {
+	
+}
