@@ -70,21 +70,17 @@ var ace_icon = ace.vars['icon'];
 //becomes
 //class="ace-icon fa fa-file-text grey"
 var tree_data_2 = {
-	'pictures' : {name: 'Pictures', type: 'folder', 'icon-class':'red'}	,
-	'music' : {name: 'Music', type: 'folder', 'icon-class':'orange'}	,
-	'video' : {name: 'Video', type: 'folder', 'icon-class':'blue'}	,
-	'documents' : {name: 'Documents', type: 'folder', 'icon-class':'green'}	,
-	'backup' : {name: 'Backup', type: 'folder'}	,
-	'readme' : {name: '<i class="'+ace_icon+' fa fa-file-text grey"></i> ReadMe.txt', type: 'item'},
-	'manual' : {name: '<i class="'+ace_icon+' fa fa-book blue"></i> Manual.html', type: 'item'}
+	'pictures' : {name: '空管业务运行', type: 'folder', 'icon-class':'red'}	,
+	'music' : {name: '空管设备状态', type: 'folder', 'icon-class':'orange'}	,
+	'video' : {name: '综合管理数据', type: 'folder', 'icon-class':'blue'}	,
+	'documents' : {name: '外界数据', type: 'folder', 'icon-class':'green'}
 }
 tree_data_2['music']['additionalParameters'] = {
 	'children' : [
-		{name: '<i class="'+ace_icon+' fa fa-music blue"></i> song1.ogg', type: 'item'},
-		{name: '<i class="'+ace_icon+' fa fa-music blue"></i> song2.ogg', type: 'item'},
-		{name: '<i class="'+ace_icon+' fa fa-music blue"></i> song3.ogg', type: 'item'},
-		{name: '<i class="'+ace_icon+' fa fa-music blue"></i> song4.ogg', type: 'item'},
-		{name: '<i class="'+ace_icon+' fa fa-music blue"></i> song5.ogg', type: 'item'}
+		{name: '<i class="'+ace_icon+'  blue"></i> 通讯类数据', type: 'item'},
+		{name: '<i class="'+ace_icon+'  blue"></i> 导航类数据', type: 'item'},
+		{name: '<i class="'+ace_icon+'  blue"></i> 监视类数据', type: 'item'},
+		{name: '<i class="'+ace_icon+'  blue"></i> 其他类数据', type: 'item'}
 	]
 }
 tree_data_2['video']['additionalParameters'] = {
@@ -132,12 +128,5 @@ tree_data_2['documents']['additionalParameters'] = {
 	]
 }
 
-tree_data_2['backup']['additionalParameters'] = {
-	'children' : [
-		{name: '<i class="'+ace_icon+' fa fa-archive brown"></i> backup1.zip', type: 'item'},
-		{name: '<i class="'+ace_icon+' fa fa-archive brown"></i> backup2.zip', type: 'item'},
-		{name: '<i class="'+ace_icon+' fa fa-archive brown"></i> backup3.zip', type: 'item'},
-		{name: '<i class="'+ace_icon+' fa fa-archive brown"></i> backup4.zip', type: 'item'}
-	]
-}
+
 var treeDataSource2 = new DataSourceTree({data: tree_data_2});
