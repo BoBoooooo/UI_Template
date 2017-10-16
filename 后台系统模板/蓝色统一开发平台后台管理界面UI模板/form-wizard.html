@@ -26,7 +26,7 @@
 
 	<body class="no-skin">
 		<!-- #section:basics/navbar.layout -->
-		<div id="navbar" class="navbar navbar-default">
+	<div id="navbar" class="navbar navbar-default">
 
 			<div class="navbar-container" id="navbar-container">
 				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler">
@@ -41,7 +41,7 @@
 					<!-- #section:basics/navbar.layout.brand -->
 					<a href="index.html" class="navbar-brand">
 						<small>
-							<img src="assets/avatars/logo.png" alt="" />
+							南航大数据平台
 						</small>
 					</a>
 				</div>
@@ -163,10 +163,9 @@
 						<!-- #section:basics/navbar.user_menu -->
 						<li class="light-blue">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
-								<img class="nav-user-photo" src="assets/avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									欢迎您<br />
-									陈子昂
+									管理员
 								</span>
 
 								<i class="ace-icon fa fa-caret-down"></i>
@@ -211,8 +210,9 @@
 
 			<!-- #section:basics/sidebar -->
 			<div id="sidebar" class="sidebar responsive">
+
 				<ul class="nav nav-list">
-					<li class="active">
+					<li class="">
 						<a href="index.html">
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 总控制台 </span>
@@ -224,7 +224,7 @@
 					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
-							<span class="menu-text"> UI &amp; 元素 </span>
+							<span class="menu-text">数据共享中心</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -233,119 +233,52 @@
 
 						<ul class="submenu">
 
-
-							<li class="">
-								<a href="typography.html">
+							<li class="active">
+								<a href="##">
 									<i class="menu-icon fa fa-caret-right"></i>
-									排版
+									民航数据云
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="elements.html">
+								<a href="##">
 									<i class="menu-icon fa fa-caret-right"></i>
-									UI元素
+									信息数据发布
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="buttons.html">
+								<a href="##">
 									<i class="menu-icon fa fa-caret-right"></i>
-									按钮 &amp; 图标
+									信息数据审批
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="treeview.html">
+								<a href="##">
 									<i class="menu-icon fa fa-caret-right"></i>
-									树状结构
+									信息申请与订阅
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
-							<li class="">
-								<a href="jquery-ui.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									jQuery UI
-								</a>
+							
 
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="nestable-list.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									可拖拽列表
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="#" class="dropdown-toggle">
-									<i class="menu-icon fa fa-caret-right"></i>
-									三级菜单
-									<b class="arrow fa fa-angle-down"></b>
-								</a>
-
-								<b class="arrow"></b>
-
-								<ul class="submenu">
-									<li class="">
-										<a href="#">
-											<i class="menu-icon fa fa-leaf green"></i>
-											第一级
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-									<li class="">
-										<a href="#" class="dropdown-toggle">
-											<i class="menu-icon fa fa-pencil orange"></i>
-
-											第四级
-											<b class="arrow fa fa-angle-down"></b>
-										</a>
-
-										<b class="arrow"></b>
-
-										<ul class="submenu">
-											<li class="">
-												<a href="#">
-													<i class="menu-icon fa fa-plus purple"></i>
-													添加商品
-												</a>
-
-												<b class="arrow"></b>
-											</li>
-
-											<li class="">
-												<a href="#">
-													<i class="menu-icon fa fa-eye pink"></i>
-													查看商品
-												</a>
-
-												<b class="arrow"></b>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
+							
 						</ul>
 					</li>
 
-					<li class="">
+					<li class="active open">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text"> 表格 </span>
+							<span class="menu-text"> 资源服务平台 </span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -356,7 +289,16 @@
 							<li class="">
 								<a href="tables.html">
 									<i class="menu-icon fa fa-caret-right"></i>
-									简单通用表格
+									资源控制台
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="active">
+								<a href="jqgrid.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									虚拟机资源申请
 								</a>
 
 								<b class="arrow"></b>
@@ -365,7 +307,7 @@
 							<li class="">
 								<a href="jqgrid.html">
 									<i class="menu-icon fa fa-caret-right"></i>
-									jqGrid插件表格
+									虚拟机审批界面
 								</a>
 
 								<b class="arrow"></b>
@@ -373,10 +315,10 @@
 						</ul>
 					</li>
 
-					<li class="active open">
+					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-pencil-square-o"></i>
-							<span class="menu-text"> 表单 </span>
+							<span class="menu-text"> 数据中心管理 </span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -387,205 +329,32 @@
 							<li class="">
 								<a href="form-elements.html">
 									<i class="menu-icon fa fa-caret-right"></i>
-									表单组件
+									用户设置
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
-							<li class="active">
+
+							<li class="">
 								<a href="form-wizard.html">
 									<i class="menu-icon fa fa-caret-right"></i>
-									向导提示 &amp; 验证
-								</a>
+										机房资源管理
+									</a>
 
 								<b class="arrow"></b>
 							</li>
 
-							<li class="">
-								<a href="wysiwyg.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									编辑器
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="dropzone.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									文件上传
-								</a>
-
-								<b class="arrow"></b>
-							</li>
+							
 						</ul>
 					</li>
 
-					<li class="">
-						<a href="widgets.html">
-							<i class="menu-icon fa fa-list-alt"></i>
-							<span class="menu-text"> 插件 </span>
-						</a>
+					
+					
 
-						<b class="arrow"></b>
-					</li>
-
-					<li class="">
-						<a href="calendar.html">
-							<i class="menu-icon fa fa-calendar"></i>
-
-							<span class="menu-text">
-								日历
-
-								<!-- #section:basics/sidebar.layout.badge -->
-								<span class="badge badge-transparent tooltip-error" title="有2件重要事件">
-									<i class="ace-icon fa fa-exclamation-triangle red bigger-130"></i>
-								</span>
-
-								<!-- /section:basics/sidebar.layout.badge -->
-							</span>
-						</a>
-
-						<b class="arrow"></b>
-					</li>
-
-					<li class="">
-						<a href="gallery.html">
-							<i class="menu-icon fa fa-picture-o"></i>
-							<span class="menu-text"> 相册 </span>
-						</a>
-
-						<b class="arrow"></b>
-					</li>
-
-					<li class="">
-						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-tag"></i>
-							<span class="menu-text"> 更多页面 </span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-
-						<ul class="submenu">
-							<li class="">
-								<a href="profile.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									用户信息
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="pricing.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									售价单
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="invoice.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									购物车
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="timeline.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									时间轴
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-
-							<li class="">
-								<a href="login.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									登录注册
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
-					</li>
-
-					<li class="">
-						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-file-o"></i>
-
-							<span class="menu-text">
-								其他页面
-
-								<!-- #section:basics/sidebar.layout.badge -->
-								<span class="badge badge-primary">5</span>
-
-								<!-- /section:basics/sidebar.layout.badge -->
-							</span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-
-						<ul class="submenu">
-							<li class="">
-								<a href="faq.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									帮助页面
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="error-404.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									404错误页面
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="error-500.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									500错误页面
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="grid.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									网格
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="blank.html">
-									<i class="menu-icon fa fa-caret-right"></i>
-									空白页面
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
-					</li>
 				</ul><!-- /.nav-list -->
 
-				<!-- #section:basics/sidebar.layout.minimize -->
+
 				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
 					<i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
 				</div>
@@ -599,25 +368,18 @@
 					<ul class="breadcrumb">
 						<li>
 							<i class="ace-icon fa fa-home home-icon"></i>
-							<a href="index.html">UI库首页</a>
+							<a href="index.html">首页</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)">表单</a>
+							<a href="javascript:void(0)">资源服务平台</a>
 						</li>
 						<li>
-							<a href="form-wizard.html">向导提示&验证</a>
+							<a href="form-wizard.html">虚拟机资源申请</a>
 						</li>
 					</ul><!-- /.breadcrumb -->
 
 					<!-- #section:basics/content.searchbox -->
-					<div class="nav-search" id="nav-search">
-						<form class="form-search">
-							<span class="input-icon">
-								<input type="text" placeholder="请输入关键字 ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
-								<i class="ace-icon fa fa-search nav-search-icon"></i>
-							</span>
-						</form>
-					</div><!-- /.nav-search -->
+					
 				</div>
 
 				<!-- /section:basics/content.breadcrumbs -->
@@ -631,7 +393,7 @@
 
 								<div class="widget-box">
 									<div class="widget-header widget-header-blue widget-header-flat">
-										<h4 class="widget-title lighter">机票购买流程</h4>
+										<h4 class="widget-title lighter">申请流程</h4>
 									</div>
 
 									<div class="widget-body">
@@ -642,22 +404,22 @@
 												<ul class="wizard-steps">
 													<li data-target="#step1" class="active">
 														<span class="step">1</span>
-														<span class="title">查询条件</span>
+														<span class="title">资源申请</span>
 													</li>
 
 													<li data-target="#step2">
 														<span class="step">2</span>
-														<span class="title">选择航班</span>
+														<span class="title">条件筛选</span>
 													</li>
 
 													<li data-target="#step3">
 														<span class="step">3</span>
-														<span class="title">联系人信息</span>
+														<span class="title">审批状态</span>
 													</li>
 
 													<li data-target="#step4">
 														<span class="step">4</span>
-														<span class="title">支付</span>
+														<span class="title">数据下载</span>
 													</li>
 												</ul>
 
@@ -673,7 +435,7 @@
 
 													<form class="form-horizontal " id="validation-form" method="get">
 														<div class="form-group">
-															<label class="control-label col-xs-12 col-sm-3 no-padding-right" for="email">Email:</label>
+															<label class="control-label col-xs-12 col-sm-3 no-padding-right" for="email">申请内容:</label>
 
 															<div class="col-xs-12 col-sm-9">
 																<div class="clearfix">
@@ -685,7 +447,7 @@
 														<div class="space-2"></div>
 
 														<div class="form-group">
-															<label class="control-label col-xs-12 col-sm-3 no-padding-right" for="password">密码:</label>
+															<label class="control-label col-xs-12 col-sm-3 no-padding-right" for="password">单位名称:</label>
 
 															<div class="col-xs-12 col-sm-9">
 																<div class="clearfix">
@@ -697,7 +459,7 @@
 														<div class="space-2"></div>
 
 														<div class="form-group">
-															<label class="control-label col-xs-12 col-sm-3 no-padding-right" for="password2">再次输入密码:</label>
+															<label class="control-label col-xs-12 col-sm-3 no-padding-right" for="password2">单位简介:</label>
 
 															<div class="col-xs-12 col-sm-9">
 																<div class="clearfix">
@@ -706,10 +468,9 @@
 															</div>
 														</div>
 
-														<div class="hr hr-dotted"></div>
 
 														<div class="form-group">
-															<label class="control-label col-xs-12 col-sm-3 no-padding-right" for="name">乘客姓名:</label>
+															<label class="control-label col-xs-12 col-sm-3 no-padding-right" for="name">需求描述:</label>
 
 															<div class="col-xs-12 col-sm-9">
 																<div class="clearfix">
@@ -718,119 +479,9 @@
 															</div>
 														</div>
 
-														<div class="space-2"></div>
+														
 
-														<div class="form-group">
-															<label class="control-label col-xs-12 col-sm-3 no-padding-right" for="phone">手机号码:</label>
-
-															<div class="col-xs-12 col-sm-9">
-																<div class="input-group">
-																	<span class="input-group-addon">
-																		<i class="ace-icon fa fa-phone"></i>
-																	</span>
-
-																	<input type="tel" id="phone" name="phone" />
-																</div>
-															</div>
-														</div>
-
-														<div class="space-2"></div>
-
-														<div class="form-group">
-															<label class="control-label col-xs-12 col-sm-3 no-padding-right" for="url">个人主页:</label>
-
-															<div class="col-xs-12 col-sm-9">
-																<div class="clearfix">
-																	<input type="url" id="url" name="url" class="col-xs-12 col-sm-8" />
-																</div>
-															</div>
-														</div>
-
-														<div class="hr hr-dotted"></div>
-
-														<div class="form-group">
-															<label class="control-label col-xs-12 col-sm-3 no-padding-right">订阅信息</label>
-
-															<div class="col-xs-12 col-sm-9">
-																<div>
-																	<label>
-																		<input name="subscription" value="1" type="checkbox" class="ace" />
-																		<span class="lbl"> 接受最新优惠信息</span>
-																	</label>
-																</div>
-
-																<div>
-																	<label>
-																		<input name="subscription" value="2" type="checkbox" class="ace" />
-																		<span class="lbl"> 接受最新产品信息</span>
-																	</label>
-																</div>
-															</div>
-														</div>
-
-														<div class="space-2"></div>
-
-														<div class="form-group">
-															<label class="control-label col-xs-12 col-sm-3 no-padding-right">性别</label>
-
-															<div class="col-xs-12 col-sm-9">
-																<div>
-																	<label class="line-height-1 blue">
-																		<input name="gender" value="1" type="radio" class="ace" />
-																		<span class="lbl"> 男</span>
-																	</label>
-																</div>
-
-																<div>
-																	<label class="line-height-1 blue">
-																		<input name="gender" value="2" type="radio" class="ace" />
-																		<span class="lbl"> 女</span>
-																	</label>
-																</div>
-															</div>
-														</div>
-
-														<div class="hr hr-dotted"></div>
-
-
-														<div class="form-group">
-															<label class="control-label col-xs-12 col-sm-3 no-padding-right" for="platform">经常选择的座位类型</label>
-
-															<div class="col-xs-12 col-sm-9">
-																<div class="clearfix">
-																	<select class="input-medium" id="platform" name="platform">
-																		<option value="">------------------</option>
-																		<option value="linux">头等舱</option>
-																		<option value="windows">商务舱</option>
-																		<option value="mac">高端经济舱</option>
-																		<option value="ios">经济舱</option>
-																	</select>
-																</div>
-															</div>
-														</div>
-
-														<div class="space-2"></div>
-
-														<div class="form-group">
-															<label class="control-label col-xs-12 col-sm-3 no-padding-right" for="comment">信息备注</label>
-
-															<div class="col-xs-12 col-sm-9">
-																<div class="clearfix">
-																	<textarea class="input-xlarge" name="comment" id="comment"></textarea>
-																</div>
-															</div>
-														</div>
-
-														<div class="space-8"></div>
-
-														<div class="form-group">
-															<div class="col-xs-12 col-sm-4 col-sm-offset-3">
-																<label>
-																	<input name="agree" id="agree" type="checkbox" class="ace" />
-																	<span class="lbl"> 我接受用户协议</span>
-																</label>
-															</div>
-														</div>
+														
 													</form>
 												</div>
 
@@ -919,7 +570,7 @@
 					<!-- #section:basics/footer -->
 					<div class="footer-content">
 						<span class="bigger-120">
-							 统一开发平台-UI库 &copy; 2014  更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a>
+							 南航大数据平台 &copy; 2017  
 						</span>
 					</div>
 
